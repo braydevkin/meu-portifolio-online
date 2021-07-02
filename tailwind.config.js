@@ -13,6 +13,13 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     colors: {
+      black: colors.black,
+      white: colors.white,
+      gray: colors.coolGray,
+      blue: colors.lightBlue,
+      red: colors.rose,
+      pink: colors.fuchsia,
+      green: colors.green,
       primaryColor: {
         100: "#292929"
       },

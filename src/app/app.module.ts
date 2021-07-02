@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
+import { TechLevelComponent } from './components/tech-level/tech-level.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
     HeaderComponent,
     TopbarComponent,
     HomeComponent,
-    ContactsComponent
+    ContactsComponent,
+    TechLevelComponent
   ],
   imports: [
     BrowserModule,
