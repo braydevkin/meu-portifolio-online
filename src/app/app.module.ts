@@ -8,6 +8,8 @@ import { TopbarComponent } from './components/topbar/topbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactsComponent } from './pages/contacts/contacts.component';
 import { TechLevelComponent } from './components/tech-level/tech-level.component';
+import { MyProjectsComponent } from './components/my-projects/my-projects.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { TechLevelComponent } from './components/tech-level/tech-level.component
     TopbarComponent,
     HomeComponent,
     ContactsComponent,
-    TechLevelComponent
+    TechLevelComponent,
+    MyProjectsComponent,
+
   ],
   imports: [
     BrowserModule,
