@@ -1,0 +1,6 @@
+.card-repository:hover {
+  transform: scale(1.02);
+  background-color: #7857d8;
+  color: #fff;
+  animation-delay: 300ms;
+}

@@ -1,1 +1,29 @@
-<p>my-projects works!</p>
+<h1 class="text-2xl text-white font-medium">Principais repositórios</h1>
+<div *ngFor="let r of repositories">
+  <div
+    (click)="navigateToRepository(r.link)"
+    class="
+      text-2xl text-primaryColor-100
+      bg-white
+      flex
+      my-4
+      p-4
+      flex-col
+      space-y-3
+      cursor-pointer
+      rounded-xl
+      shadow
+      carousel-cell
+      card-repository
+    "
+  >
+    <h2 class="font-medium text-xl">
+      {{ r.repo }}
+    </h2>
+    <article class="text-base">{{ r.description }}</article>
+    <div class="w-full flex items-center">
+      <p class="text-base font-medium">{{ r.language }}</p>
+      <hr class="h-4 w-4 ml-4 rounded-full bg-green-500" />
+    </div>
+  </div>
+</div>
