@@ -10,6 +10,9 @@ import { TechLevelComponent } from './components/tech-level/tech-level.component
 import { MyProjectsComponent } from './components/my-projects/my-projects.component';
 import { HttpClientModule } from '@angular/common/http';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 
 @NgModule({
   declarations: [
@@ -20,13 +23,14 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     ContactsComponent,
     TechLevelComponent,
     MyProjectsComponent,
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    BrowserAnimationsModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

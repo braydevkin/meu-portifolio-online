@@ -15,7 +15,6 @@ export class MyProjectsComponent implements OnInit {
   ngOnInit(): void {
     this.myProjectsService.getPinnedRepos().subscribe((repos) => {
       this.repositories = repos
-      console.log(repos)
     })
   }
 
